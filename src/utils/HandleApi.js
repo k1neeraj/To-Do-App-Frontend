@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseUrl = "https://to-do-backend-ppda.onrender.com/";
+const baseUrl = "https://to-do-app-backend-pied.vercel.app";
 
 const getAllToDo = (setToDo) => {
   axios.get(baseUrl).then(({ data }) => {
